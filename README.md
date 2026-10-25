@@ -1,6 +1,6 @@
 # Student Portfolio
 
-A lightweight, single-page portfolio website and Git/GitHub workshop project. It introduces the author, presents example skills and projects, and includes Markdown files for editing portfolio content and practising collaboration.
+A lightweight, single-page portfolio website and Git/GitHub workshop project for practising repository creation, branching, commits, and collaboration. It introduces the author, presents example skills and projects, and includes Markdown files for editing portfolio content and practising contributions.
 
 ## Features
 
