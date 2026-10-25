@@ -6,6 +6,7 @@ A lightweight, single-page portfolio website and Git/GitHub workshop project for
 
 - Responsive one-page layout with section navigation.
 - About, skills, project, education, and contact sections.
+- Separate pages explaining Git branches and workshop practice topics.
 - Standalone Markdown files for portfolio content and contribution exercises.
 - No build step, package installation, backend, or JavaScript dependency.
 
@@ -27,6 +28,8 @@ The site is static, so a local web server is not required.
 ```text
 .
 ├── index.html
+├── branches.html
+├── events.html
 ├── style.css
 ├── about.md
 ├── contact.md
