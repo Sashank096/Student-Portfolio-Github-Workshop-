@@ -1,34 +1,50 @@
 # Student Portfolio
 
-A beginner-friendly portfolio website for practising Git and GitHub workflows.
+A lightweight, single-page portfolio website and Git/GitHub workshop project. It introduces the author, presents example skills and projects, and includes Markdown files for editing portfolio content and practising collaboration.
 
-## Project contents
-- `index.html` — main portfolio webpage
-- `style.css` — page styling
-- `about.md` — introduction and career objective
-- `skills.md` — technical skills
-- `projects.md` — academic and personal project descriptions
-- `education.md` — education and achievements
-- `contact.md` — professional contact information
-- `contributions/` — individual student Git/GitHub learning notes
-- `.gitignore` — files Git should ignore
+## Features
 
-## View the website
-Open `index.html` in a web browser. No backend or installation is required.
+- Responsive one-page layout with section navigation.
+- About, skills, project, education, and contact sections.
+- Standalone Markdown files for portfolio content and contribution exercises.
+- No build step, package installation, backend, or JavaScript dependency.
 
-## GitHub practical assessment
-1. Fork the repository to your GitHub account.
-2. Clone your fork to your computer.
-3. Create a branch named `improve-documentation`.
-4. Add a uniquely named Markdown file inside `contributions/`, using your roll number as the filename, for example `YOUR_ROLL_NUMBER.md`.
-5. Commit and push the change to your fork.
-6. Submit your fork URL to the trainer.
+## Technologies
 
-## Contribution file requirements
-Your file should include:
-- Name and roll number
-- Three Git commands and what they do
-- The purpose of GitHub
-- One benefit of using branches
+- HTML
+- CSS
+- Git and GitHub
 
-**Important:** Replace placeholders with appropriate information. Do not publish passwords, access tokens, API keys, home addresses, or other sensitive information.
+## Run locally
+
+1. Download or clone the repository.
+2. Open `index.html` in a web browser.
+
+The site is static, so a local web server is not required.
+
+## Project structure
+
+```text
+.
+├── index.html
+├── style.css
+├── about.md
+├── contact.md
+├── education.md
+├── projects.md
+├── skills.md
+├── contributions/
+│   ├── README.md
+│   └── ROLL_NUMBER_TEMPLATE.md
+└── .gitignore
+```
+
+## GitHub workshop contribution
+
+To complete the contribution exercise, fork this repository, clone your fork, and create a branch for your work. Add a new file in `contributions/` named with your own roll number (for example, `YOUR_ROLL_NUMBER.md`) rather than editing another student's file or the template. Include your name and roll number, three Git commands and their purposes, the purpose of GitHub, and one benefit of branches. Commit and push the change to your fork, then submit your fork URL to your trainer.
+
+Do not include passwords, access tokens, API keys, home addresses, or other sensitive information.
+
+## Author
+
+[Sashank Reddy Sathi](https://github.com/Sashank096)
